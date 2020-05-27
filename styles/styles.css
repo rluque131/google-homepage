@@ -1,0 +1,134 @@
+input[type=text] {
+	width: 400px;
+	height: 20px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:hover {
+  
+}
+.container {
+	//display: flex;
+	//flex-direction: column;
+	text-align: center;
+	
+}
+.input-container {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.icon {
+	padding:10px;
+	background: red;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+
+}
+#search-icon {
+	//border-left: solid;
+	//border-radius: 20px;
+	
+}
+#voice-icon {
+	//border-right: solid;
+	//border-radius: 20px;
+}
+.btn {
+	cursor: pointer;
+	background-color: rgb(196, 191, 191);
+	color: black;
+	padding: 10px;
+	border: none;
+	min-width: 150px;
+	min-height: 20px;
+	opacity: 0.9;
+	border-radius: 5px;
+	margin: 10px;
+}
+.btn:hover {
+	border: 0.5px solid grey;
+	opacity: 1;
+}
+.btn-container {
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+}
+.topnav {
+	float: left;
+	width: 100%;
+	margin-bottom: 100px;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	
+}
+
+.topnav-right {
+	float: right;
+}
+.botnav {
+	float: left;
+	background-color: #f2f2f2;
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	border: solid;
+	border-color: #f3f3f3;
+}
+.botnav-right {
+	float: right;
+}
+li {
+	float: left;
+}
+.topnav li a {
+	display: block;
+	color: rgb(0,0,0,0.87);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.botnav li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	text-decoration: underline;
+	opacity: 0.7;
+}
+.gb_xc {
+	background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+	background-size: 528px 68px;
+	color: #000;
+	cursor: pointer;
+	
+}
+.gb_D {
+	display: inline-block;
+	outline: none;
+	border-radius: 2px;
+	box-sizing: border-box;
+	height:30px;
+	width: 30px;
+	background-position: -132px -38px;
+}
+body, a{
+	font-family: arial, sans-serif;
+}
+.gb_4 {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
+}
